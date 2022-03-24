@@ -1,0 +1,42 @@
+<html>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <body>
+        <nombre>Nombre <input type="text" id="texto"></nombre><input type="button" value="Aceptar" id="aceptar">
+        <h3>Resultado Jugador:<resultado id="resultado_jugador">No_Encontrado</resultado></h3>
+        <h3>Resultado Máquina:<resultado_maquina id="resultado_maquina">No_Encontrado</resultado_maquina></h3>
+        <h3>Ganador Ronda: <ganador_ronda id="ganador">No_Encontrado</ganador_ronda></h3>
+        <input type="button" id="piedra" value="Piedra">
+        <input type="button" id="papel" value="Papel">
+        <input type="button" id="tijera" value="Tijera">
+        <h2>Datos Jugador
+            <h4>Piedra Ganada: <jugador_piedra_ganada id="jugador_victoria_piedra">0</jugador_piedra_ganada></h4>
+            <h4>Papel Ganada: <jugador_papel_ganada id="jugador_victoria_papel">0</jugador_papel_ganada></h4>
+            <h4>Tijera Ganada: <jugador_tijera_ganada id="jugador_victoria_tijera">0</jugador_tijera_ganada></h4>
+        </h2>
+
+        <h2>Datos Maquina
+            <h4>Piedra Ganada: <maquina_piedra_ganada id="maquina_victoria_piedra">0</maquina_piedra_ganada></h4>
+            <h4>Papel Ganada: <maquina_papel_ganada id="maquina_victoria_papel">0</maquina_papel_ganada></h4>
+            <h4>Tijera Ganada: <maquina_tijera_ganada id="maquina_victoria_tijera">0</maquina_tijera_ganada></h4>
+        </h2>
+        <!-- <script src="preload.js"></script> -->
+        <script src="clase.js"></script>
+        <script src="clase_jugador.js"></script>
+        <script src="clase_maquina.js"></script>
+        <script src="maquina_piedra_papel_tijera.js"></script>
+        <script src="resultado_piedra_jugador.js"></script>
+        <script src="resultado_papel_jugador.js"></script>
+        <script src="resultado_tijera_jugador.js"></script>
+        <script src="jugador.js"></script>
+        <script src="actualizar_datos.js"></script>
+        
+        <script src="guardar_datos.js"></script>
+        <script src="guardar_datos_bot.js"></script>
+        
+
+    </body>
+    <footer>
+        <script src="main.js"></script>
+    </footer>
+</html>
